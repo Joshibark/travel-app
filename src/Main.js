@@ -23,7 +23,7 @@ function Main() {
               {/* Dropdown details */}
             <h2>Travel alternative: Gå</h2>
             <h2>Distans: 0km</h2>
-            <h2>Emission: 0 CO<sub>2</sub></h2>
+            <h2>Emission: 0 CO<sub>2</sub></h2>p
           </div>
 
           <div className='Language'>

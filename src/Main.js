@@ -1,6 +1,10 @@
 import './main.css';
 
 function Main() {
+  const travelMethod = "Gå";
+  let Distans = 0;
+  let Emission = 0;
+
     return (
       <div className="Main">
           <h1>Travel companion</h1>
@@ -21,17 +25,16 @@ function Main() {
 
           <div className='text'>
               {/* Dropdown details */}
-            <h2>Travel alternative: Gå</h2>
-            <h2>Distans: 0km</h2>
-            <h2>Emission: 0 CO<sub>2</sub></h2>p
+            <h2>Travel alternative: {travelMethod}</h2>
+            <h2>Distans: {Distans}km</h2>
+            <h2>Emission: {Emission} CO<sub>2</sub></h2>
           </div>
 
-          <div className='Language'>
-              <h1>Swedish/English</h1>
+          <div className='Settings'>
+              <h1>Settings</h1>
               {/* I settings istället??? */}
           </div>
       </div>
     );
   }
-  
   export default Main;

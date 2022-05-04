@@ -32,7 +32,7 @@ function Main() {
           </div>
 
           <div className='Settings'>
-              <Link to="/travel-companion/settings/"><h1>Settings</h1></Link>
+              <Link style={{textDecoration: 'none', color: 'white'}} to="/travel-companion/settings/"><h1>Settings</h1></Link>
           </div>
       </div>
     );

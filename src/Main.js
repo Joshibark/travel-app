@@ -1,4 +1,5 @@
 import './main.css';
+import {Link} from "react-router-dom";
 
 function Main() {
   const travelMethod = "Gå";
@@ -14,8 +15,8 @@ function Main() {
           </div>
 
             <div className='search-bar'>
-                <input className='search' type="text" placeholder='Enter position...'/>
-                <input className='search' type="text" placeholder='Enter destination...'/>
+                <input className='search' type="text" placeholder='Enter position...' onFocus="this.placeholder = ''"/>
+                <input className='search' type="text" placeholder='Enter destination...' onFocus="this.placeholder = ''"/>
             </div>
 
           <div className='travel-alternative'>
@@ -31,8 +32,7 @@ function Main() {
           </div>
 
           <div className='Settings'>
-              <h1>Settings</h1>
-              {/* I settings istället??? */}
+              <Link to="/travel-companion/settings/"><h1>Settings</h1></Link>
           </div>
       </div>
     );

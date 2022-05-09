@@ -1,87 +1,57 @@
-#The Mobility Challenge Travel app
-Created by: Josiah Barkström and David Fagerström
-This React app was created for a competition within mobilitysolutions arranged by Consid & Riksbyggen 
+# **The Mobility Challenge Travel app**
 
-#Project idea
+## Introduction
+This React app was created for a competition regarding sustainable and climate-smart mobility solutions, arranged by Consid & Riksbyggen during 2022  
 
+*Created by: Josiah Barkström and David Fagerström*
 
+## The goal
+The idea and goal of the competition were to innovate a mobility solution making transportation and travel easier for the residents of Kv. Spårvagnshallarna in their everyday lives and guiding them to make a more thought out way of transportation in terms of the effect on climate, time, and money. It should be easy to travel climate-smart.
 
+## Project idea
+We had the idea to make a web-based mobile app that makes it easier and faster to compare multiple ways of transportation and lets the user pick their desired way of transportation based on climate effect, time and money. With this project, we wanted to encourage more people to go outside their comfort zone and try out new means of climate-smart transportation
 
+## Why you should pick our solution
 
+Our app has a target group and combines all local methods of transportation within Helsingborg in one idealistic package.
 
+Our app is easily scaleble and can be blown up and used in multible regions in Sweden
 
+We work in our custommers intrest by combining info from multible diffrent apps and presenting it one complete package. Saving them time and the hassel of downloading and updating multible apps 
 
+With our app solution we present the end-user with a bigger picture of how their day to day traveling habbits effect the enviroment, their economy and time. With our tool we want to inspire people to look outside of the box and try on new ways of travel they maybe did not think of before. 
 
+## App functions
+Listed here are the functions we are currently implementing and developing into the app.
 
+- An easy to maneuver clean website with its own identity
 
+- Choice of transportation:
 
-# Getting Started with Create React App
+    - Passenger car
+    - Pool car
+    - Bike
+    - Pool Bike
+    - Bus (Skånetrafiken)
+    - Electric scooter (Bolt)
+    - Walk
+    
+## Extra functions
+Listed here are the ideas we would like to implement for a future version of the app and would be needed for it to be put out in production.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Payment methods (Swish, Credit card, Prepayed card)
+- More API's from more regions
+- location data from the different traveling methods
+- Support for trips abroad?
 
-## Available Scripts
+## Execution
+We jumped on the development train a bit late and did not have much time to put everything into a finished app. We started our project by making a design document, writing down points we found important for a climate and mobility-focused app. Furthermore, we continued the project by making a quick mockup of our vision and 
 
-In the project directory, you can run:
+## Design decisions
+We choose to use the React language which includes HTML, CSS, and JavaScript coding. We made use of React because of its flexibility in programming for multiple platforms using multiple integrations, its support from Meta, The very comprehensive documentation, and its great developer experience.
 
-### `npm start`
+For the API integration, we decided to go with TrafikLab for the required public transportation APIs needed for the project. We choose Trafiklab because of: the ease of use, its documentation, for future continued support and development, but also for its future scalability in implementing multiple public transport regions in future versions of the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For the electric scooter, our options were very limited. Since we needed the API specifically for Bolt, we choose to go with their open API for the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lastly, to calculate the time of travel by car walking and scootering, we used Google Maps API. We choose to go with Google because of our experience with the Google app and our experience with their reliable maps application.

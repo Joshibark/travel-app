@@ -1,3 +1,20 @@
+#The Mobility Challenge Travel app
+Created by: Josiah Barkström and David Fagerström
+This React app was created for a competition within mobilitysolutions arranged by Consid & Riksbyggen 
+
+#Project idea
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

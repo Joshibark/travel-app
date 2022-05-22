@@ -2,6 +2,7 @@ body {
     background-color: cadetblue;
 }
 
+
 .Main {
     display: flex;
     justify-content: center;
@@ -11,15 +12,8 @@ body {
     margin-top: -1.5vh;
 }
 
-.map {
-    border-style: none;
-    border-color: black;
-    border-width: 1.5px;
-    border-radius: 20px;
-    width: 90vw;
-    height: 60vh;
-    background-color: darkblue;
-    color: white;
+.Main img {
+    border-radius: 2vh;
 }
 
 .search-bar {
@@ -71,7 +65,6 @@ body {
 .Settings {
     color: white;
     background-color: black;
-    align-self: flex-end;
     margin-right: 2vw;
     text-decoration: none;
     width: 10vw;
